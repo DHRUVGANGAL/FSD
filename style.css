@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mydiv{
+display: flex;
+flex-direction: column;
+
+}
+#header{
+    display: flex;
+    width: 100vw;
+    background-color: #ffffff;
+    justify-content: center;
+    gap: 20px;
+    height: 70px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+}
