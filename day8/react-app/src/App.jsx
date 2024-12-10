@@ -1,8 +1,13 @@
 import React from 'react'
-
-const App = () => {
+import './App.css'
+const App = ({name,email,mob}) => {
   return (
-    <div>dhruv</div>
+    <div id="disp">
+      <h1>Student Details</h1>
+      <h2>Name: {name}</h2>
+      <h2>Email Id:{email}</h2>
+      <h2>Mobile Number:{mob}</h2>
+    </div>
   )
 }
 
